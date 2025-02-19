@@ -1,0 +1,16 @@
+{
+  "name": "vanilla-ts",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@biomejs/biome": "^1.9.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
